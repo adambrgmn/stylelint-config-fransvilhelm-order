@@ -12,7 +12,11 @@
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-config-airbnb-base": "^11.1.2",
-    "eslint-plugin-import": "^2.2.0"
+    "eslint-plugin-import": "^2.2.0",
+    "stylelint": "^7.10.1",
+    "stylelint-order": "^0.4.3",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
   },
   "peerDependencies": {
     "stylelint": "^7.10.1",
