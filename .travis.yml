@@ -6,6 +6,7 @@ script: npm test
 branches:
   only:
     - master
+    - /^v.*$/
 notifications:
   email: false
   slack:
