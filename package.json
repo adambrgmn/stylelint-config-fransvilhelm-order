@@ -1,6 +1,6 @@
 {
   "name": "stylelint-preset-fransvilhelm-order",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stylelint properties ordering preset",
   "main": "index.js",
   "repository": "git@github.com:adambrgmn/stylelint-preset-fransvilhelm-order.git",
