@@ -11,7 +11,7 @@
   "license": "MIT",
   "keywords": [
     "stylelint",
-    "stylelin-config"
+    "stylelint-config"
   ],
   "scripts": {
     "lint": "eslint '**/*.js'",
