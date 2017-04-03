@@ -14,7 +14,9 @@
     "stylelin-config"
   ],
   "scripts": {
-    "lint": "eslint '**/*.js'"
+    "lint": "eslint '**/*.js'",
+    "pretest": "yarn run lint",
+    "test": "tape 'test/**/*.js' | tap-spec"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
