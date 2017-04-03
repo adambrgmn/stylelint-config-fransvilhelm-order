@@ -3,9 +3,6 @@ node_js:
 - '6'
 cache: yarn
 script: npm run lint
-branches:
-  only:
-  - master
 notifications:
   email: false
   slack:
@@ -17,4 +14,5 @@ deploy:
     secure: eTURN/fNfS0fo8e+iHT4JQ4MEWAdP+gQ+XRCmdoLoDwYjh2xRr6CMSgGdBGp1pKXaSY1mvdgE01bbIovzYbVOFbuKthfTAiFG7c9Bz+EMcSSHfu0FyvNSpJoZWABydxo38wiYSspXBPDTPNI1N3U4nTZh8SYZqjKaSf6G6Gz2O5HHzUrq1AqFyzFlKdLv4iFr+bGQomgdJQxHqnr8u5fqhSWF1oNlQOzxomYA9UETTxT9v7ubTUmHmjQcNJSkP2u1Snq1nWuPPOUD3uWtk37mFNsnw/oeDkF5eeDfE5QuCzxHneJ08htCZB40VOriHcdBAy9+CmJr1aA8titjym2P8uvf+/FdoGPZExcYf6WT5KuJ65WLmpTUxRch0AQQ6a1tVAzvRU8cmR494uOxeEWpufY5AiTPs9Ib2AXh2WGFD5C4C9IxxV1SY56pYuifWiBi7QiEIlWu9AdGnc4nqLVTXGufIytjKynMLfB4EmPO5g6CwLMOYOaHCVFx9sy2Wglj7JM60yj2T6DA/mIksBdETUuTilUzySWBVzlqLPDlArJTpWOA9VpNkDZfUcpoTvXy5tZrKOEuGetws/nKDQokBoWA2E7J9SGAzpeCPqpqDo9CHNO+j6lskQgwWfTnT9xJhnGR+3h6wSoyafpzqhT9XpDODB46QRz1uZpRV1abSg=
   on:
     tags: true
+    branch: master
     repo: adambrgmn/stylelint-preset-fransvilhelm-order
